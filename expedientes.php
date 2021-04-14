@@ -10,8 +10,8 @@
         <?php
         foreach ($datos as $dato) {
 ?>      <tr>
-                        <td><p><label>ID: </label><?php echo $dato["_id"]; ?></p></td>
-                        <td><p><label>Usuario: </label><?php echo $dato["Matricula"]; ?></p></td>
+                        
+                        <td><p><label>Matricula: </label><?php echo $dato["Matricula"]; ?></p></td>
                         <td><p><label>Contraseña: </label><?php echo $dato["Nombre"]; ?></p></td>
                         <td><p><label>Carrera: </label><?php echo $dato["Carrera"]; ?></p></td>
                         <td><p><label>Sexo: </label><?php echo $dato["Sexo"]; ?></p></td>
