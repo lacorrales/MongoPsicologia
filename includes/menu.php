@@ -47,7 +47,7 @@
                                         Psicologo
                                    </a>
                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="">Cerrar sesion</a>
+                                        <a class="dropdown-item" href="login.php">Cerrar sesion</a>
                                    </div>
                               </li>
                          </ul>
