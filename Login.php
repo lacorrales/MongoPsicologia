@@ -27,7 +27,7 @@
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="assets/img/logo.png" alt="IMG">
 				</div>
-				<form class="login100-form validate-form" action="connection.php" method="POST">
+				<form class="login100-form validate-form" action="conexion.php" method="POST">
 					<span class="login100-form-title">
 						Iniciar sesion
 					</span>

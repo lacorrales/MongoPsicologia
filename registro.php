@@ -43,8 +43,14 @@
           </div>
           <br>
           <div class="d-flex justify-content-center">
-              <button type="submit">enviar</button>
+              <button type="submit">ENVIAR</button>
           </div>
+          <?php
+       if(isset($_GET["enviado"]) && $_GET["enviado"] == 'true')
+       {
+          echo "<div style='color:green'>Registro insertado correctamente </div>";
+       }
+     ?>
      </form>
 </div>
 

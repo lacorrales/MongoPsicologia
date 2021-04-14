@@ -28,12 +28,12 @@ $insertOneResult = $collection->insertOne([
     
 ]);
 
-//header("Location:Login.php");
-printf("Se insertó %d documento(s)\n", $insertOneResult->getInsertedCount());
+header("location: registro.php?enviado=true");
+//printf("Se insertó %d documento(s)\n", $insertOneResult->getInsertedCount());
 
 
 
-var_dump($insertOneResult->getInsertedId());
+//var_dump($insertOneResult->getInsertedId());
 
 
 ?>
