@@ -25,7 +25,7 @@
                <div class="sidebar-heading"><img src="assets/img/logo.png" height="150px" width="180px" alt=""> </div>
                <div class="list-group list-group-flush">
                     <a href="" class="list-group-item list-group-item-action bg-light">Inicio <i class="fa fa-home float-right fa-lg"></i></a>
-                    <a href="" class="list-group-item list-group-item-action bg-light">Alumnos <i class="fa fa-user float-right fa-lg"></i></a>
+                    <a href="expedientes.php" class="list-group-item list-group-item-action bg-light">Expedientes<i class="fa fa-user float-right fa-lg"></i></a>
                     <a href="" class="list-group-item list-group-item-action bg-light">Citas <i class="fa fa-edit float-right fa-lg"></i></a>
                </div>
           </div>
@@ -44,7 +44,7 @@
                          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                               <li class="nav-item dropdown">
                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Username
+                                        Psicologo
                                    </a>
                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                                         <a class="dropdown-item" href="">Cerrar sesion</a>
