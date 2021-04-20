@@ -58,7 +58,7 @@ $mail = new PHPMailer(true);
 
 try {
     $fromemail = 'elii.lauma@gmail.com';
-    $fromname = 'Eli';
+    $fromname = 'Psicologia UTN';
     //Server settings
     $mail->SMTPDebug = 0;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
