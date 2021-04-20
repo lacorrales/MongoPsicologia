@@ -44,7 +44,7 @@ $correo = $_POST["correo"];
 $fecha = $_POST["fecha"];
 $hora = $_POST["time"];
 
-$body = "Nombre: ". $nombre . "<br>Correo: ". $correo . "<br>Asunto: " . "Confirmacion Cita psicologia UTN" . "<br>Fecha: " . $fecha . "<br>hora: ".$hora;
+$body = "Nombre: ". $nombre . "<br>Asunto: " . "Confirmacion Cita psicologia UTN" . "<br>Fecha: " . $fecha . "<br>hora: ".$hora;
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
